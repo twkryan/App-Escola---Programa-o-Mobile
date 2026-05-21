@@ -11,19 +11,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StartApp">
-
+        <activity
+            android:name=".HistoricoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SaidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VagasOcupadasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VagasLivresActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RegisterActivity" android:exported="false" />
-        <activity android:name=".HomeActivity" android:exported="false" />
-        <activity android:name=".PainelActivity" android:exported="false" />
-
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PainelActivity"
+            android:exported="false" />
     </application>
+
 </manifest>
